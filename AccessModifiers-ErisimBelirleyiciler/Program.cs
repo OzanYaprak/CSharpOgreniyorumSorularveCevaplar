@@ -33,7 +33,7 @@ namespace AccessModifiers_ErisimBelirleyiciler
 
 			long sayi3 = 500;
 			//int sayi4 = sayi3; 
-			
+
 			//Eger yukaridaki sekilde yaparsak hata aliriz, cunku int veri tipi long veri tipinden daha dusuk seviyededir.
 			//Bu yuzden asagidaki gibi kullanim daha dogru olur.
 
@@ -55,9 +55,9 @@ namespace AccessModifiers_ErisimBelirleyiciler
 			#endregion
 
 			#region Boxing/UnBoxing
-			
+
 			#region Boxing Islemi
-			
+
 			//Boxing islemi value type bir degiskenden referans type bir degiskene tip donusumu yapilmasina denilir.
 
 			int deger = 100; // Value Type Degisken => Byte,Int,Long,Decimal..
@@ -80,8 +80,45 @@ namespace AccessModifiers_ErisimBelirleyiciler
 			long test = 100;
 			int say1 = (int)test; // (int)test Casting Islemi
 
+			//Diger bir Casting yontemi ise asagidaki gibidir.
+
+			int say2 = Convert.ToInt32(test);
+
 			#endregion
-		}
+
+			#region Int.Parse() Ve Int.TryParse()
+
+			#region Int.Parse()
+
+			//Parse islemi sadece String uzerinden gerceklestirilir.
+			string abc = "10";
+
+			int sayi10 = int.Parse(abc); //Donusturebilirse donusturecek, olmaz ise hata firlatacak.
+			double sayi11 = double.Parse(abc);
+			decimal sayi12 = decimal.Parse(abc);
+			byte sayi13 = byte.Parse(abc);
+			// Yukaridaki parse metotlarini mutlaka string bir ifade girilmesi gerekir.
+
+			#endregion
+
+			#region Int.TryParse()
+
+			string ozan = "10";
+			int result;
+
+			bool isSuccess = int.TryParse(ozan, out result); //Eger donusturebilirse isSuccess true olacak, donusturemez ise false olacak ve out result kisminda 0 yazacak. 
+
+			//Int.Parse() metodunda exception firlatiyordu fakat Int.TryParse() metodunda herhangi bir hata firlatilmiyor.
+
+			Console.WriteLine(isSuccess);
+            Console.WriteLine(result);
+
+			Console.ReadLine();
+
+            #endregion
+
+            #endregion
+        }
 
 		class Ogrenci
 		{
