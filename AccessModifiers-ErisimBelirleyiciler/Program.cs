@@ -135,10 +135,3 @@ namespace AccessModifiers_ErisimBelirleyiciler
 }
 
 
-#region Notlar
-
-#region Casting Ifadesi Ne Anlama Gelir ?
-//Bir tipi (Type) baska bir tipe donusturme islemine denilir, Ayni zamanda Conversion Islemide denilebiliyor.
-#endregion
-
-#endregion
