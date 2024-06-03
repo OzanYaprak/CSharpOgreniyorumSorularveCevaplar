@@ -37,8 +37,6 @@ namespace Matematik
 	#region ProtectedInternalErisim Ornek
 	public class Test2 : Sekil
 	{
-
-		
 		void ProtectedInternal()
 		{
 			ProtectedInternalErisim = ProtectedInternalErisim.ToUpper();
