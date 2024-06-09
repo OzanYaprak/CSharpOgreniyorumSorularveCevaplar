@@ -24,6 +24,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingIslemi", "CastingIsl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseVeTryParseMetotlari", "ParseVeTryParseMetotlari\ParseVeTryParseMetotlari.csproj", "{8B380ADF-A9D6-44A1-BEC1-90A904ADC5EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsVeAsOperatorleri", "IsVeAsOperatorleri\IsVeAsOperatorleri.csproj", "{B86FCE1F-7B89-401F-922C-AD6AA256872E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstKeyword", "ConstKeyword\ConstKeyword.csproj", "{26680629-2F32-48FD-8F62-2BAA9F947B60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,14 @@ Global
 		{8B380ADF-A9D6-44A1-BEC1-90A904ADC5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B380ADF-A9D6-44A1-BEC1-90A904ADC5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B380ADF-A9D6-44A1-BEC1-90A904ADC5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86FCE1F-7B89-401F-922C-AD6AA256872E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86FCE1F-7B89-401F-922C-AD6AA256872E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86FCE1F-7B89-401F-922C-AD6AA256872E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86FCE1F-7B89-401F-922C-AD6AA256872E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26680629-2F32-48FD-8F62-2BAA9F947B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26680629-2F32-48FD-8F62-2BAA9F947B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26680629-2F32-48FD-8F62-2BAA9F947B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26680629-2F32-48FD-8F62-2BAA9F947B60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
