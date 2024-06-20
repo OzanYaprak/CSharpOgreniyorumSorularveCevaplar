@@ -42,6 +42,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedTypeNedir", "NestedTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBirdenFazlaSinifiMirasAlmayiDesteklerMi", "CsharpBirdenFazlaSinifiMirasAlmayiDesteklerMi\CsharpBirdenFazlaSinifiMirasAlmayiDesteklerMi.csproj", "{6694CAD6-11A3-4E48-8ECB-C50B8ADE9591}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{60F8AD66-CDA0-449C-A82B-C807DE43D58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNedir", "InterfaceNedir\InterfaceNedir.csproj", "{5E069BD0-D361-4CFA-9FED-7065EE3E777A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirInterfaceDigerBirInterfacedenMirasAlabilirmi", "BirInterfaceDigerBirInterfacedenMirasAlabilirmi\BirInterfaceDigerBirInterfacedenMirasAlabilirmi.csproj", "{4C2AE594-8C2B-4A73-AD33-0E5411D30A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirInterfacedenNesneOrnegiAlabilirmiyiz", "BirInterfacedenNesneOrnegiAlabilirmiyiz\BirInterfacedenNesneOrnegiAlabilirmiyiz.csproj", "{3E4F50FE-FF09-4328-B5A3-F93B5D21E69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirInterfaceUyesiniExplicitOlarakImplementEtmekNeDemektir", "BirInterfaceUyesiniExplicitOlarakImplementEtmekNeDemektir\BirInterfaceUyesiniExplicitOlarakImplementEtmekNeDemektir.csproj", "{89DE277C-8413-4B0F-9FC2-167545BC9EB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract", "Abstract", "{BF6190C7-AB5C-4DDC-95F7-EC8383E92F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,6 +120,22 @@ Global
 		{6694CAD6-11A3-4E48-8ECB-C50B8ADE9591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6694CAD6-11A3-4E48-8ECB-C50B8ADE9591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6694CAD6-11A3-4E48-8ECB-C50B8ADE9591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E069BD0-D361-4CFA-9FED-7065EE3E777A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E069BD0-D361-4CFA-9FED-7065EE3E777A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E069BD0-D361-4CFA-9FED-7065EE3E777A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E069BD0-D361-4CFA-9FED-7065EE3E777A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2AE594-8C2B-4A73-AD33-0E5411D30A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2AE594-8C2B-4A73-AD33-0E5411D30A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2AE594-8C2B-4A73-AD33-0E5411D30A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2AE594-8C2B-4A73-AD33-0E5411D30A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4F50FE-FF09-4328-B5A3-F93B5D21E69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4F50FE-FF09-4328-B5A3-F93B5D21E69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4F50FE-FF09-4328-B5A3-F93B5D21E69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4F50FE-FF09-4328-B5A3-F93B5D21E69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DE277C-8413-4B0F-9FC2-167545BC9EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DE277C-8413-4B0F-9FC2-167545BC9EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DE277C-8413-4B0F-9FC2-167545BC9EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DE277C-8413-4B0F-9FC2-167545BC9EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +156,10 @@ Global
 		{A2443511-BC85-4F65-948F-8BACF1ED7615} = {6CC21574-6963-4EA9-8D3B-C1604D22C20A}
 		{27D80C72-29B5-4DFA-9C2F-31B5F25AD5C9} = {6CC21574-6963-4EA9-8D3B-C1604D22C20A}
 		{6694CAD6-11A3-4E48-8ECB-C50B8ADE9591} = {6CC21574-6963-4EA9-8D3B-C1604D22C20A}
+		{5E069BD0-D361-4CFA-9FED-7065EE3E777A} = {60F8AD66-CDA0-449C-A82B-C807DE43D58D}
+		{4C2AE594-8C2B-4A73-AD33-0E5411D30A8B} = {60F8AD66-CDA0-449C-A82B-C807DE43D58D}
+		{3E4F50FE-FF09-4328-B5A3-F93B5D21E69C} = {60F8AD66-CDA0-449C-A82B-C807DE43D58D}
+		{89DE277C-8413-4B0F-9FC2-167545BC9EB2} = {60F8AD66-CDA0-449C-A82B-C807DE43D58D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B509C657-FA2A-4951-84A8-BB97E063CA5C}
