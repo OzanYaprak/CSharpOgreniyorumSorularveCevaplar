@@ -21,13 +21,13 @@ namespace FatihCakirogluUdemyC_
 
 		private class ogrenciler
 		{
-			private string _name;
-			private string _surname;
-			private int _age;
+			private string _name; //Burasi bir field dir, fieldlarin get ve set leri olmaz !
+			private string _surname; //Burasi bir field dir
+			private int _age; //Burasi bir field dir
 
-			public string Name { get { return _name.ToUpper(); } set { _name = value; } }
+			public string Name { get { return _name.ToUpper(); } set { _name = value; } } //Burasi bir property dir
 			// * get * kisminda degisken okuma yapilir, * set * kisminda degisken atama islemi yapilir.
-			public string Surname { get { return _surname.ToUpper(); } set { _surname = value; } }
+			public string Surname { get { return _surname.ToUpper(); } set { _surname = value; } } //Burasi bir property dir
 
 			public int Age
 			{
