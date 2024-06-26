@@ -70,6 +70,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceileAbstractArasind
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Virtual", "Virtual", "{26F00870-1449-41A7-8D53-CF2B1ED0DE34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethodNedir", "VirtualMethodNedir\VirtualMethodNedir.csproj", "{6A9B9081-43F7-4536-9A7C-5B5EFEAAB9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPropertyNedir", "VirtualPropertyNedir\VirtualPropertyNedir.csproj", "{F86F8B39-E757-463B-A3F1-5323CF17893B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethodIleAbstractMethodArasindakiFarkNedir", "VirtualMethodIleAbstractMethodArasindakiFarkNedir\VirtualMethodIleAbstractMethodArasindakiFarkNedir.csproj", "{C26D76EF-E534-45D6-B47F-D02D76BA21B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildClassdanParentClassUyeleriniNeZamanOverrideEdebiliriz", "ChildClassdanParentClassUyeleriniNeZamanOverrideEdebiliriz\ChildClassdanParentClassUyeleriniNeZamanOverrideEdebiliriz.csproj", "{29E6D3FB-DF30-407C-BC08-3E50A5B610B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,6 +188,22 @@ Global
 		{DD606FA3-CBD9-4B73-BE32-6AE8DB7C7D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD606FA3-CBD9-4B73-BE32-6AE8DB7C7D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD606FA3-CBD9-4B73-BE32-6AE8DB7C7D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9B9081-43F7-4536-9A7C-5B5EFEAAB9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9B9081-43F7-4536-9A7C-5B5EFEAAB9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9B9081-43F7-4536-9A7C-5B5EFEAAB9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9B9081-43F7-4536-9A7C-5B5EFEAAB9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86F8B39-E757-463B-A3F1-5323CF17893B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86F8B39-E757-463B-A3F1-5323CF17893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86F8B39-E757-463B-A3F1-5323CF17893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86F8B39-E757-463B-A3F1-5323CF17893B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26D76EF-E534-45D6-B47F-D02D76BA21B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26D76EF-E534-45D6-B47F-D02D76BA21B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26D76EF-E534-45D6-B47F-D02D76BA21B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26D76EF-E534-45D6-B47F-D02D76BA21B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E6D3FB-DF30-407C-BC08-3E50A5B610B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E6D3FB-DF30-407C-BC08-3E50A5B610B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E6D3FB-DF30-407C-BC08-3E50A5B610B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E6D3FB-DF30-407C-BC08-3E50A5B610B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +235,10 @@ Global
 		{44818718-60DA-4D52-A36D-F5F51D2D703B} = {BF6190C7-AB5C-4DDC-95F7-EC8383E92F33}
 		{D7A87938-A409-43BB-81FA-BA6F6E4D11F1} = {BF6190C7-AB5C-4DDC-95F7-EC8383E92F33}
 		{DD606FA3-CBD9-4B73-BE32-6AE8DB7C7D1D} = {BF6190C7-AB5C-4DDC-95F7-EC8383E92F33}
+		{6A9B9081-43F7-4536-9A7C-5B5EFEAAB9C4} = {26F00870-1449-41A7-8D53-CF2B1ED0DE34}
+		{F86F8B39-E757-463B-A3F1-5323CF17893B} = {26F00870-1449-41A7-8D53-CF2B1ED0DE34}
+		{C26D76EF-E534-45D6-B47F-D02D76BA21B8} = {26F00870-1449-41A7-8D53-CF2B1ED0DE34}
+		{29E6D3FB-DF30-407C-BC08-3E50A5B610B4} = {26F00870-1449-41A7-8D53-CF2B1ED0DE34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B509C657-FA2A-4951-84A8-BB97E063CA5C}
