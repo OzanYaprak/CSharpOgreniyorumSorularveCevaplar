@@ -92,6 +92,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KacCesitConstructorVardırD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterizedConstructorNedir", "ParameterizedConstructorNedir\ParameterizedConstructorNedir.csproj", "{7C322350-620F-4024-B371-AC8A3B27FA1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyConstructorNedir", "CopyConstructorNedir\CopyConstructorNedir.csproj", "{7D8D7BB0-3D45-4D56-B9DC-FE70299409F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -238,6 +240,10 @@ Global
 		{7C322350-620F-4024-B371-AC8A3B27FA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C322350-620F-4024-B371-AC8A3B27FA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C322350-620F-4024-B371-AC8A3B27FA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8D7BB0-3D45-4D56-B9DC-FE70299409F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8D7BB0-3D45-4D56-B9DC-FE70299409F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8D7BB0-3D45-4D56-B9DC-FE70299409F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8D7BB0-3D45-4D56-B9DC-FE70299409F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -278,6 +284,7 @@ Global
 		{4E362667-9B14-4243-A59C-054BF5070876} = {2276029A-8EF2-4921-9D54-B78266CB8405}
 		{64733D7B-B4DF-4EB0-9DFA-8F13C51687A1} = {2276029A-8EF2-4921-9D54-B78266CB8405}
 		{7C322350-620F-4024-B371-AC8A3B27FA1E} = {2276029A-8EF2-4921-9D54-B78266CB8405}
+		{7D8D7BB0-3D45-4D56-B9DC-FE70299409F9} = {2276029A-8EF2-4921-9D54-B78266CB8405}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B509C657-FA2A-4951-84A8-BB97E063CA5C}
