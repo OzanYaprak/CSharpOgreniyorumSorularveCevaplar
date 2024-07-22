@@ -21,31 +21,59 @@ namespace DelegateKullanilmasiOrnek
 			List<Isci> isciler = new List<Isci> { isci1, isci2, isci3, isci4, isci5 };
 
 			//isci.MaasIlePromosyon(isciler,5000);
-			isci.TecrubeIlePromosyon(isciler,15);
+			//isci.TecrubeIlePromosyon(isciler,15);
+
 		}
 
-		public class Isci
+
+		public delegate bool promosyonDelegate(Isci isci);
+
+		public static bool maasPromosyon3000(Isci isci)
 		{
-			public string Isim { get; set; }
-			public string Soyisim { get; set; }
-			public int Maas { get; set; }
-			public int Tecrube { get; set; }
-
-
-			public void MaasIlePromosyon(List<Isci> isci, int maas)
+			if (isci.Maas >= 3000)
 			{
-				foreach (var item in isci)
-				{
-					if (item.Maas >= maas) { Console.WriteLine("MaasIlePromosyonAlan :" + item.Isim + " " + item.Soyisim); }
-				}
+				return true;
 			}
-			public void TecrubeIlePromosyon(List<Isci> isci, int tecrube)
-			{
-				foreach (var item in isci)
-				{
-					if (item.Tecrube >= tecrube) { Console.WriteLine("TecrubeIlePromosyonAlan :" + item.Isim + " " + item.Soyisim); }
-				}
-			}
+			else { return false; }
 		}
 	}
+
+	public class Isci
+	{
+		public string Isim { get; set; }
+		public string Soyisim { get; set; }
+		public int Maas { get; set; }
+		public int Tecrube { get; set; }
+
+		public void Promosyon(List<Isci> isciler, promosyonDelegate promosyonDelegate)
+		{
+			foreach (var item in isciler)
+			{
+				if (promosyonDelegate(item) == true)
+				{
+					Console.WriteLine(item.Isim + " " + item.Soyisim);
+				}
+				else
+				{
+					Console.WriteLine("Hata !");
+				}
+			}
+		}
+
+		//public void MaasIlePromosyon(List<Isci> isci, int maas)
+		//{
+		//	foreach (var item in isci)
+		//	{
+		//		if (item.Maas >= maas) { Console.WriteLine("MaasIlePromosyonAlan :" + item.Isim + " " + item.Soyisim); }
+		//	}
+		//}
+		//public void TecrubeIlePromosyon(List<Isci> isci, int tecrube)
+		//{
+		//	foreach (var item in isci)
+		//	{
+		//		if (item.Tecrube >= tecrube) { Console.WriteLine("TecrubeIlePromosyonAlan :" + item.Isim + " " + item.Soyisim); }
+		//	}
+		//}
+	}
+}
 }
