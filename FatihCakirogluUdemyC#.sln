@@ -122,6 +122,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event", "Event", "{5BC9231B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{332C6FBC-5800-4763-9FE9-F29D372B01ED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenelSorularVeCevaplar-2", "GenelSorularVeCevaplar-2", "{38A06EE5-5AF2-4CA3-BE42-5C36365D0696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefVeOutKeywordleriNeIseYarar", "RefVeOutKeywordleriNeIseYarar\RefVeOutKeywordleriNeIseYarar.csproj", "{7B329B3D-D4FA-41D4-8A57-E2E48F0B7D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -316,6 +320,10 @@ Global
 		{332C6FBC-5800-4763-9FE9-F29D372B01ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{332C6FBC-5800-4763-9FE9-F29D372B01ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{332C6FBC-5800-4763-9FE9-F29D372B01ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B329B3D-D4FA-41D4-8A57-E2E48F0B7D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B329B3D-D4FA-41D4-8A57-E2E48F0B7D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B329B3D-D4FA-41D4-8A57-E2E48F0B7D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B329B3D-D4FA-41D4-8A57-E2E48F0B7D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -368,6 +376,7 @@ Global
 		{BD35DA39-D3D6-4266-9850-2A7AFEA5529C} = {6E6E9D8F-DFB0-43DF-958D-87D6D9F69021}
 		{4F0FA424-86F0-4629-86B4-2D24B8D3FECF} = {6E6E9D8F-DFB0-43DF-958D-87D6D9F69021}
 		{332C6FBC-5800-4763-9FE9-F29D372B01ED} = {5BC9231B-2B9D-4693-ACB8-C537492F743F}
+		{7B329B3D-D4FA-41D4-8A57-E2E48F0B7D5A} = {38A06EE5-5AF2-4CA3-BE42-5C36365D0696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B509C657-FA2A-4951-84A8-BB97E063CA5C}
