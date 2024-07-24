@@ -138,6 +138,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsKeywordnunAmaciNedirNasilKullanilir", "ParamsKeywordnunAmaciNedirNasilKullanilir\ParamsKeywordnunAmaciNedirNasilKullanilir.csproj", "{C13503A5-0B2F-48F3-9699-0C808C6F4C47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueIleBreakKeywordleriArasindakiFarkNedir", "ContinueIleBreakKeywordleriArasindakiFarkNedir\ContinueIleBreakKeywordleriArasindakiFarkNedir.csproj", "{A8B566DA-793E-42F3-9201-EC3F3A295E82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -356,6 +358,10 @@ Global
 		{C13503A5-0B2F-48F3-9699-0C808C6F4C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C13503A5-0B2F-48F3-9699-0C808C6F4C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C13503A5-0B2F-48F3-9699-0C808C6F4C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B566DA-793E-42F3-9201-EC3F3A295E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B566DA-793E-42F3-9201-EC3F3A295E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B566DA-793E-42F3-9201-EC3F3A295E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B566DA-793E-42F3-9201-EC3F3A295E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -415,6 +421,7 @@ Global
 		{A7019D96-14BB-438F-A659-5C610EFE43D7} = {38A06EE5-5AF2-4CA3-BE42-5C36365D0696}
 		{1AF4DA5A-AE1F-4D98-83EA-35DC30E3CB08} = {38A06EE5-5AF2-4CA3-BE42-5C36365D0696}
 		{C13503A5-0B2F-48F3-9699-0C808C6F4C47} = {38A06EE5-5AF2-4CA3-BE42-5C36365D0696}
+		{A8B566DA-793E-42F3-9201-EC3F3A295E82} = {38A06EE5-5AF2-4CA3-BE42-5C36365D0696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B509C657-FA2A-4951-84A8-BB97E063CA5C}
